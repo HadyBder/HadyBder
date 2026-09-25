@@ -74,6 +74,16 @@ Mechatronics taught me to think across disciplines. Research in **robotic leg de
 
 [Read the quadruped research ↗](https://soe.lau.edu.lb/research/undergraduate/a-comparative-biomechanical-analysis-and-material-constrained-se.php) &nbsp; · &nbsp; [More projects & experience ↗](https://hady-portfolio-seven.vercel.app/)
 
+### 04 / A little motion
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HadyBder/HadyBder/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HadyBder/HadyBder/output/snake-light.svg" />
+  <img width="100%" alt="A snake moving through Hady Bdeir’s GitHub contribution calendar" src="https://raw.githubusercontent.com/HadyBder/HadyBder/output/snake-light.svg" />
+</picture>
+
+<p align="center"><sub>Built from my GitHub contributions · refreshed daily · animation by <a href="https://github.com/Platane/snk">Platane/snk</a></sub></p>
+
 <br />
 
 <a href="mailto:hadybder1@gmail.com"><img src="./assets/footer.svg" width="100%" alt="Let’s build something useful. Good questions. Clear thinking. Working software." /></a>
