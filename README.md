@@ -1,45 +1,81 @@
-<div align="center">
+<a href="https://hady-portfolio-seven.vercel.app/">
+  <img src="./assets/signal-header.svg" width="100%" alt="Hady Bdeir — Software engineer. Systems thinker. Backend, applied AI, and systems." />
+</a>
 
-<img src="./assets/header-v2.svg" alt="Hady Bdeir — software engineer building useful software for real-world systems" width="100%" />
+<p align="center">
+  <a href="https://hady-portfolio-seven.vercel.app/"><strong>PORTFOLIO ↗</strong></a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/hady-bder/"><strong>LINKEDIN ↗</strong></a> &nbsp; · &nbsp;
+  <a href="mailto:hadybder1@gmail.com"><strong>LET’S TALK ↗</strong></a>
+</p>
 
-### Java · Full-stack · Applied AI
+### Software first. A wider engineering lens.
 
-I build Java backends, full-stack applications, and software that connects to the physical world.
+I’m Hady, a software engineer with a background in mechatronics and advanced electronic systems. I build **Java backends, full-stack applications, and tools that connect software to the physical world**.
 
-[Portfolio](https://hady-portfolio-seven.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/hady-bder/) · [Email](mailto:hadybder1@gmail.com)
+At **Htech Co.**, I work with Java, Spring Boot, REST APIs, and databases. Alongside that, I’m developing a **CCR operator-assistance prototype** around plant alarms, reviewed knowledge, and clear troubleshooting conversations.
 
-</div>
+I like the part where an untidy real-world problem becomes something understandable—and useful.
 
----
+### 01 / Selected work
 
-### What I'm working on
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://hady-portfolio-seven.vercel.app/#projects"><img src="./assets/project-ccr.svg" width="100%" alt="Industrial intelligence: signals become structured knowledge" /></a>
+<h3>CCR Operator Assistant</h3>
+<p>An offline prototype that matches alarms to reviewed knowledge and supports operator questions. Designed to ask for clarification when context is missing.</p>
+<p><code>Python</code> <code>NLP concepts</code> <code>Offline knowledge</code></p>
+<p><sub>IN DEVELOPMENT · Broader retrieval is on the roadmap.</sub></p>
+<p><a href="https://hady-portfolio-seven.vercel.app/#projects">Explore the project →</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://hady-portfolio-seven.vercel.app/#projects"><img src="./assets/project-api.svg" width="100%" alt="Backend engineering: API requests and database persistence" /></a>
+<h3>Job Application Tracker API</h3>
+<p>A database-backed REST API built around validation, filtering, pagination, and automated tests. A practical exercise in clear backend design.</p>
+<p><code>Java</code> <code>Spring Boot</code> <code>PostgreSQL</code></p>
+<p><sub>BUILT · JUnit and Mockito tests.</sub></p>
+<p><a href="https://hady-portfolio-seven.vercel.app/#projects">Explore the project →</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/HadyBder/shantivikasa"><img src="./assets/project-pos.svg" width="100%" alt="Everyday software: a checkout interface and receipt" /></a>
+<h3>Shanti Vikasa POS</h3>
+<p>A Windows checkout and inventory application shaped around a supermarket’s daily workflow, with local storage and receipt generation.</p>
+<p><code>Electron</code> <code>TypeScript</code> <code>SQLite</code></p>
+<p><sub>BUILT · Practical desktop software.</sub></p>
+<p><a href="https://github.com/HadyBder/shantivikasa">View repository →</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://hady-portfolio-seven.vercel.app/#projects"><img src="./assets/project-control.svg" width="100%" alt="Three sensor inputs feeding two-out-of-three validation" /></a>
+<h3>Fault-Tolerant Pressure Control</h3>
+<p>Pressure regulation based on validated sensor readings. My master’s thesis explores 2-out-of-3 validation for ABB-oriented industrial pipelines.</p>
+<p><code>Control logic</code> <code>Sensors</code> <code>2-out-of-3</code></p>
+<p><sub>MASTER’S THESIS · Implementation details are confidential.</sub></p>
+<p><a href="https://hady-portfolio-seven.vercel.app/#projects">Read the overview →</a></p>
+</td>
+</tr>
+</table>
 
-- **Full-stack engineering at Htech Co.** — Java, Spring Boot, REST APIs, and databases.
-- **CCR operator assistant** — a developing offline workflow for matching plant alarms to reviewed knowledge and handling operator questions. The current work is a prototype; broader retrieval and operational integration are future steps.
-- **Software for physical systems** — from fault-tolerant pressure control to robotics and practical desktop tools.
+### 02 / The engineering behind the work
 
-### Selected work
+| Area | Tools & foundations |
+| :--- | :--- |
+| **Backend** | Java · Spring Boot · REST APIs · Spring Data JPA · PostgreSQL |
+| **Applications** | React · JavaScript / TypeScript · Electron · SQLite |
+| **AI & systems** | Python · NLP concepts · Control logic · C++ · ROS 2 |
+| **Engineering practice** | OOP · Data structures · Concurrency · JUnit / Mockito · Git · Docker |
 
-| Project | What it does | Stack / focus |
-| :--- | :--- | :--- |
-| [Job Application Tracker API](https://hady-portfolio-seven.vercel.app/) | REST API with validation, filtering, pagination, tests, and database persistence. | Java · Spring Boot · PostgreSQL |
-| [Shanti Vikasa POS](https://github.com/HadyBder/shantivikasa) | Windows checkout and inventory app with local storage and receipts. | Electron · SQLite · TypeScript |
-| [CCR Operator Assistant](https://hady-portfolio-seven.vercel.app/) | In-development alarm and incident workflow prototype using synthetic data. | Python · Structured troubleshooting |
-| [Quadruped Leg Research](https://soe.lau.edu.lb/research/undergraduate/a-comparative-biomechanical-analysis-and-material-constrained-se.php) | Modeling and optimization under material and control constraints. | Python · C++ · ROS 2 |
+### 03 / Beyond the editor
 
-My [portfolio](https://hady-portfolio-seven.vercel.app/) has more details, including my master's thesis on 2-out-of-3 pressure-sensor validation. Plant implementation details and private code are confidential.
+Mechatronics taught me to think across disciplines. Research in **robotic leg design** taught me to work within physical and computational constraints. Teaching robotics and tutoring data structures taught me to make difficult ideas clear.
 
-### Tools I use
+**Academic background:** Advanced Electronic Systems at Université Bourgogne Europe, France · B.E. in Mechatronics Engineering at the Lebanese American University.
 
-`Java` `Spring Boot` `REST APIs` `PostgreSQL` `React` `TypeScript` `Python` `SQLite` `Docker` `Git`
+[Read the quadruped research ↗](https://soe.lau.edu.lb/research/undergraduate/a-comparative-biomechanical-analysis-and-material-constrained-se.php) &nbsp; · &nbsp; [More projects & experience ↗](https://hady-portfolio-seven.vercel.app/)
 
-### GitHub activity
+<br />
 
-See the live contribution graph and repository activity directly below this README on [my GitHub profile](https://github.com/HadyBder). It updates with my public work and any private contributions I choose to show.
+<a href="mailto:hadybder1@gmail.com"><img src="./assets/footer.svg" width="100%" alt="Let’s build something useful. Good questions. Clear thinking. Working software." /></a>
 
----
-
-<div align="center">
-  <strong>Building software with systems thinking.</strong><br />
-  <a href="https://hady-portfolio-seven.vercel.app/">Explore the portfolio →</a>
-</div>
+<p align="center"><sub>Interested in backend engineering, full-stack products, and thoughtful applications of AI.</sub></p>
