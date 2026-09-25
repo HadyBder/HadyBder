@@ -80,8 +80,3 @@ Mechatronics taught me to think across disciplines. Research in **robotic leg de
   <img width="100%" alt="A snake moving through Hady Bdeir’s GitHub contribution calendar" src="https://raw.githubusercontent.com/HadyBder/HadyBder/output/snake-light.svg" />
 </picture>
 
-<br />
-
-<a href="mailto:hadybder1@gmail.com"><img src="./assets/footer.svg" width="100%" alt="Let’s build something useful. Good questions. Clear thinking. Working software." /></a>
-
-<p align="center"><sub>Interested in backend engineering, full-stack products, and thoughtful applications of AI.</sub></p>
