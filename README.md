@@ -35,11 +35,7 @@ My [portfolio](https://hady-portfolio-seven.vercel.app/) has more details, inclu
 
 ### GitHub activity
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HadyBder&show_icons=true&hide_border=true&theme=transparent&title_color=51d5cf&icon_color=51d5cf&text_color=8b949e" alt="GitHub activity statistics for HadyBder" height="165" />
-</div>
-
-<sub>GitHub's contribution graph below shows current activity. The card above is provided by an external service and may be temporarily unavailable.</sub>
+See the live contribution graph and repository activity directly below this README on [my GitHub profile](https://github.com/HadyBder). It updates with my public work and any private contributions I choose to show.
 
 ---
 
