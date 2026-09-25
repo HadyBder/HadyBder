@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="Hady Bdeir — software engineer building useful software for real-world systems" width="100%" />
+<img src="./assets/header-v2.svg" alt="Hady Bdeir — software engineer building useful software for real-world systems" width="100%" />
 
 ### Java · Full-stack · Applied AI
 
