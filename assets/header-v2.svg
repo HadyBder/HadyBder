@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">Hady Bdeir — Software Engineer</title>
+  <desc id="desc">Animated teal and violet lines frame Hady Bdeir's name and software engineering focus.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#132633"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#43d9c9"/><stop offset=".55" stop-color="#74a8ff"/><stop offset="1" stop-color="#ad8bff"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#bafaf1"/><stop offset="1" stop-color="#a7bdff"/></linearGradient>
+    <clipPath id="panel"><rect x="1" y="1" width="998" height="258" rx="22"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="998" height="258" rx="22" fill="url(#bg)" stroke="#27445b" stroke-width="2"/>
+  <g clip-path="url(#panel)">
+    <g opacity=".25" stroke="#59b9bb" stroke-width="1">
+      <path d="M700 0V260 M760 0V260 M820 0V260 M880 0V260 M940 0V260 M0 60H1000 M0 120H1000 M0 180H1000 M0 240H1000"/>
+    </g>
+    <path d="M610 246 C680 222 710 177 770 185 S838 210 882 145 S955 143 1000 85" fill="none" stroke="url(#line)" stroke-width="3" opacity=".78" stroke-dasharray="700" stroke-dashoffset="700">
+      <animate attributeName="stroke-dashoffset" from="700" to="0" dur="2.8s" fill="freeze"/>
+    </path>
+    <circle cx="882" cy="145" r="5" fill="#58e3d1"><animate attributeName="opacity" values=".4;1;.4" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="770" cy="185" r="4" fill="#a6a0ff"><animate attributeName="opacity" values="1;.35;1" dur="3.4s" repeatCount="indefinite"/></circle>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="55" y="61" font-size="15" letter-spacing="4" fill="#74e8da">HELLO, I'M</text>
+    <text x="52" y="128" font-size="61" font-weight="700" fill="#f2f7fb">Hady Bdeir</text>
+    <rect x="55" y="148" width="260" height="3" rx="2" fill="url(#shine)">
+      <animate attributeName="width" from="0" to="260" dur="1.8s" fill="freeze"/>
+    </rect>
+    <text x="55" y="188" font-size="22" fill="#c7d9e7">Software engineer · Systems thinker</text>
+    <text x="55" y="217" font-size="16" fill="#8faec3">Backend / Full-stack / Applied AI</text>
+  </g>
+</svg>
