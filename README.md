@@ -75,8 +75,8 @@ Mechatronics taught me to think across disciplines. Research in **robotic leg de
 [Read the quadruped research ↗](https://soe.lau.edu.lb/research/undergraduate/a-comparative-biomechanical-analysis-and-material-constrained-se.php) &nbsp; · &nbsp; [More projects & experience ↗](https://hady-portfolio-seven.vercel.app/)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HadyBder/HadyBder/output/snake-dark.svg?v=green-grid-gold-snake-20260929" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HadyBder/HadyBder/output/snake-light.svg?v=green-grid-gold-snake-20260929" />
-  <img width="100%" alt="A snake moving through Hady Bdeir’s GitHub contribution calendar" src="https://raw.githubusercontent.com/HadyBder/HadyBder/output/snake-light.svg?v=green-grid-gold-snake-20260929" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HadyBder/HadyBder/output/snake-dark.svg?v=random-routes-20260929" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HadyBder/HadyBder/output/snake-light.svg?v=random-routes-20260929" />
+  <img width="100%" alt="A snake moving through Hady Bdeir’s GitHub contribution calendar" src="https://raw.githubusercontent.com/HadyBder/HadyBder/output/snake-light.svg?v=random-routes-20260929" />
 </picture>
 
