@@ -27,8 +27,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-light.svg?color_snake=#346d58&color_dots=#eceee9,#c7dfd2,#92c8ae,#60a283,#346d58
-            dist/snake-dark.svg?palette=github-dark&color_snake=#e9bb7b&color_dots=#1b2b32,#294c40,#437b60,#65ae8b,#8ee2c0
+            dist/snake-light.svg?color_snake=#9a6324&color_dots=#efede8,#f1dfc5,#e5c28f,#c9944c,#9a6324
+            dist/snake-dark.svg?palette=github-dark&color_snake=#e9bb7b&color_dots=#1b2b32,#493827,#765332,#ad7c43,#dca65f
 
       - name: Check out profile repository
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
