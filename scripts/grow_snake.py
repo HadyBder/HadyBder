@@ -71,6 +71,13 @@ def build(source, seed=None, rounds=4):
     ys = sorted({y for _, y in cells})
     assert all(b-a == 16 for a,b in zip(xs,xs[1:]))
     assert all(b-a == 16 for a,b in zip(ys,ys[1:]))
+    expected_cells = {(x, y) for x in xs for y in ys}
+    if set(cells) != expected_cells:
+        missing = len(expected_cells - set(cells))
+        raise ValueError(
+            f'Contribution grid is incomplete ({missing} cells missing); '
+            'refusing to publish malformed artwork'
+        )
     food_count = sum(level is not None for level in cells.values())
     rng = random.Random(seed)
     scenes, offset = [], 0
