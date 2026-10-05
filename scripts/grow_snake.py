@@ -72,10 +72,11 @@ def build(source, seed=None, rounds=4):
     assert all(b-a == 16 for a,b in zip(xs,xs[1:]))
     assert all(b-a == 16 for a,b in zip(ys,ys[1:]))
     expected_cells = {(x, y) for x in xs for y in ys}
-    if set(cells) != expected_cells:
-        missing = len(expected_cells - set(cells))
+    missing = expected_cells - set(cells)
+    interior_missing = {(x, y) for x, y in missing if x not in (xs[0], xs[-1])}
+    if interior_missing:
         raise ValueError(
-            f'Contribution grid is incomplete ({missing} cells missing); '
+            f'Contribution grid has {len(interior_missing)} missing interior cells; '
             'refusing to publish malformed artwork'
         )
     food_count = sum(level is not None for level in cells.values())

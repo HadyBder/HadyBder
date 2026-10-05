@@ -29,11 +29,22 @@ class BuildTests(unittest.TestCase):
 
     def test_missing_grid_cell_is_rejected(self):
         source = svg([
-            (0, 0, "c1"), (16, 0, ""),
-            (0, 16, ""),
+            (0, 0, ""), (16, 0, ""), (32, 0, ""),
+            (0, 16, ""),                 (32, 16, ""),
+            (0, 32, ""), (16, 32, ""), (32, 32, "c1"),
         ])
-        with self.assertRaisesRegex(ValueError, "incomplete"):
+        with self.assertRaisesRegex(ValueError, "missing interior"):
             build(source, seed=7, rounds=1)
+
+    def test_partial_edge_weeks_are_allowed(self):
+        source = svg([
+                         (16, 0, ""), (32, 0, ""),
+            (0, 16, ""), (16, 16, ""), (32, 16, ""),
+            (0, 32, ""), (16, 32, ""),
+        ])
+        result, stats = build(source, seed=7, rounds=1)
+        self.assertIn("<svg", result)
+        self.assertEqual(stats["food"], 0)
 
 
 if __name__ == "__main__":
