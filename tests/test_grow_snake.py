@@ -46,6 +46,14 @@ class BuildTests(unittest.TestCase):
         self.assertIn("<svg", result)
         self.assertEqual(stats["food"], 0)
 
+    def test_duplicate_grid_cell_is_rejected(self):
+        source = svg([
+            (0, 0, "c1"),
+            (0, 0, ""),
+        ])
+        with self.assertRaisesRegex(ValueError, "Duplicate contribution cell"):
+            build(source, seed=7, rounds=1)
+
 
 if __name__ == "__main__":
     unittest.main()

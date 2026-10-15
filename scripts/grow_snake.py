@@ -64,6 +64,11 @@ def build(source, seed=None, rounds=4):
         classes = node.get('class', '').split()
         if node.tag.endswith('rect') and 'c' in classes:
             point = (int(float(node.get('x'))) + 6, int(float(node.get('y'))) + 6)
+            if point in cells:
+                raise ValueError(
+                    f'Duplicate contribution cell at {point}; '
+                    'refusing to publish malformed artwork'
+                )
             cells[point] = next((levels[c] for c in classes if c in levels), None)
     if not cells:
         raise ValueError('No contribution cells found; refusing to replace artwork')
