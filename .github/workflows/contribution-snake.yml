@@ -29,7 +29,7 @@ jobs:
           path: profile-source
 
       - name: Test the contribution-snake renderer
-        run: python3 -m unittest discover -s profile-source/tests -v
+        run: cd profile-source && python3 -m unittest discover -s tests -v
 
       - name: Generate themed contribution animations
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
