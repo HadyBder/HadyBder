@@ -9,6 +9,7 @@ on:
     paths:
       - ".github/workflows/contribution-snake.yml"
       - "scripts/grow_snake.py"
+      - "tests/test_grow_snake.py"
 
 permissions:
   contents: write
@@ -22,6 +23,14 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
+      - name: Check out profile repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          path: profile-source
+
+      - name: Test the contribution-snake renderer
+        run: python3 -m unittest discover -s profile-source/tests -v
+
       - name: Generate themed contribution animations
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
@@ -29,11 +38,6 @@ jobs:
           outputs: |
             dist/snake-light.svg?color_snake=#9a6324&color_dots=#eceee9,#c7dfd2,#92c8ae,#60a283,#346d58
             dist/snake-dark.svg?palette=github-dark&color_snake=#e9bb7b&color_dots=#1b2b32,#294c40,#437b60,#65ae8b,#8ee2c0
-
-      - name: Check out profile repository
-        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
-        with:
-          path: profile-source
 
       - name: Make the snake grow after every eaten contribution
         run: python3 profile-source/scripts/grow_snake.py dist/snake-light.svg dist/snake-dark.svg
