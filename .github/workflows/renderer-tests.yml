@@ -1,0 +1,21 @@
+name: Contribution renderer tests
+
+on:
+  pull_request:
+    paths:
+      - "scripts/grow_snake.py"
+      - "tests/**"
+      - ".github/workflows/renderer-tests.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - name: Run renderer regressions
+        run: python3 -m unittest discover -s tests -v
