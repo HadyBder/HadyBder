@@ -8,9 +8,13 @@ It uses only the Python standard library. Run checks from the repository root:
 python3 -m unittest discover -s tests -v
 ```
 
-The four regressions cover complete grids, legitimate partial edge weeks,
-missing interior cells, and duplicate coordinates. These synthetic checks do
-not fetch the current GitHub calendar or publish artwork.
+The six tests cover complete grids, legitimate partial edge weeks, missing
+interior cells, duplicate coordinates, and the command-line interface. The CLI
+checks use temporary SVG files to verify shared routes across two themes,
+reported output statistics, and preservation of a rejected input file's bytes.
+These synthetic checks do not fetch the current GitHub calendar or publish
+artwork. The rejected-file check does not promise all-or-nothing processing of
+multiple files: the CLI processes each argument in order.
 
 ## Transforming local copies
 
